@@ -8,6 +8,7 @@ A Google HTML5 slide template
 By Luke Mahé and Marcin Wichary.
 
 
+
 ## Code license ##
 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
