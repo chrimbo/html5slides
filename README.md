@@ -2,7 +2,7 @@
 This repository contains an unmodified copy of http://code.google.com/p/html5slides/  (last synced March 6, 2012)
 ![](images/colorbar.png)
 ---
-## html5slides ##
+# html5slides #
 A Google HTML5 slide template
 
 By Luke Mahé and Marcin Wichary.
