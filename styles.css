@@ -54,14 +54,14 @@ body {
   position: absolute;
   overflow: hidden;
 
-  width: 900px;
-  height: 700px;
+  width: 1200px;
+  height: 900px;
 
   left: 50%;
   top: 50%;
 
-  margin-left: -450px;
-  margin-top: -350px;
+  margin-left: -600px;
+  margin-top: -450px;
   
   padding: 40px 60px;
 
@@ -97,7 +97,7 @@ body {
 }
 
 .slides.template-default > article:not(.nobackground):not(.biglogo) {
-  background: url(images/google-logo-small.png) 710px 625px no-repeat;  
+  background: url(images/google-logo-small.png) 1010px 825px no-repeat;  
   
   background-color: white;  
 } 
@@ -123,14 +123,14 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 150px;
-  height: 700px;  
+  width: 400px;
+  height: 900px;  
 
   left: 50%;
   top: 50%;
 
   cursor: pointer;  
-  margin-top: -350px;  
+  margin-top: -450px;  
   
   tap-highlight-color: transparent;
   -o-tap-highlight-color: transparent;
@@ -138,7 +138,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 #prev-slide-area {
-  margin-left: -550px;
+  margin-left: -800px;
 }
 #next-slide-area {
   margin-left: 400px;
@@ -171,17 +171,17 @@ body {
 }
 .slides > article.far-past {
   display: block;
-  transform: translate(-2040px);
-  -o-transform: translate(-2040px);
-  -moz-transform: translate(-2040px);
-  -webkit-transform: translate3d(-2040px, 0, 0);
+  transform: translate(-2640px);
+  -o-transform: translate(-2640px);
+  -moz-transform: translate(-2640px);
+  -webkit-transform: translate3d(-2640px, 0, 0);
 }
 .slides > article.past {
   display: block;
-  transform: translate(-1020px);
-  -o-transform: translate(-1020px);
-  -moz-transform: translate(-1020px);
-  -webkit-transform: translate3d(-1020px, 0, 0);
+  transform: translate(-1320px);
+  -o-transform: translate(-1320px);
+  -moz-transform: translate(-1320px);
+  -webkit-transform: translate3d(-1320px, 0, 0);
 }
 .slides > article.current {
   display: block;
@@ -192,17 +192,17 @@ body {
 }
 .slides > article.next {
   display: block;
-  transform: translate(1020px);
-  -o-transform: translate(1020px);
-  -moz-transform: translate(1020px);
-  -webkit-transform: translate3d(1020px, 0, 0);
+  transform: translate(1320px);
+  -o-transform: translate(1320px);
+  -moz-transform: translate(1320px);
+  -webkit-transform: translate3d(1320px, 0, 0);
 }
 .slides > article.far-next {
   display: block;
-  transform: translate(2040px);
-  -o-transform: translate(2040px);
-  -moz-transform: translate(2040px);
-  -webkit-transform: translate3d(2040px, 0, 0);
+  transform: translate(2640px);
+  -o-transform: translate(2640px);
+  -moz-transform: translate(2640px);
+  -webkit-transform: translate3d(2640px, 0, 0);
 }
 
 .slides.layout-widescreen > article.far-past,
@@ -492,7 +492,7 @@ th {
 .source {
   position: absolute;
   left: 60px;
-  top: 644px;
+  top: 844px;
   padding-right: 175px;
   
   font-size: 15px;
